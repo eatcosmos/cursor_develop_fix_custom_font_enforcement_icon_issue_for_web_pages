@@ -1,0 +1,62 @@
+{
+   "EXT_DESCRIPTION": {
+      "message": "Force the use of custom fonts for web pages. If you are professional in using CSS, the extension \"Stylish\" is suggested."
+   },
+   "EXT_NAME": {
+      "message": "Force Custom Fonts"
+   },
+   "error_settings_load": {
+      "message": "Error: cannot load settings!"
+   },
+   "error_settings_reset": {
+      "message": "Error: cannot reset settings!"
+   },
+   "error_settings_save": {
+      "message": "Error: cannot save settings!"
+   },
+   "settings_font_default": {
+      "message": "(none)"
+   },
+   "settings_pause": {
+      "message": "Pause"
+   },
+   "settings_reset": {
+      "message": "Reset"
+   },
+   "settings_save": {
+      "message": "Save"
+   },
+   "settings_title_font_cjk": {
+      "message": "Default/Chinese"
+   },
+   "settings_title_font_fixed": {
+      "message": "Code/Fixed width"
+   },
+   "settings_title_font_latin": {
+      "message": "Latin/English"
+   },
+   "settings_title_font_notice": {
+      "message": "(Default Font setting needed)"
+   },
+   "settings_title_font_other": {
+      "message": "Non_CJK_En"
+   },
+   "settings_title_fonts": {
+      "message": "Custom Fonts (GLOBAL; DEPRECATED)"
+   },
+   "settings_title_page": {
+      "message": "Font Settings"
+   },
+   "settings_title_transform": {
+      "message": "Substitute Fonts"
+   },
+   "settings_title_transform_range": {
+      "message": "Unicode Range:"
+   },
+   "settings_title_transform_range_notice": {
+      "message": "range ::= \u003CFROM>_\u003CTO> Please use hexadecimal number from 0 to 10FFFF. Multiple range can be divided by \",\". Use 0-10FFFF by default if it is left blank."
+   },
+   "settings_title_transform_to": {
+      "message": "to"
+   }
+}

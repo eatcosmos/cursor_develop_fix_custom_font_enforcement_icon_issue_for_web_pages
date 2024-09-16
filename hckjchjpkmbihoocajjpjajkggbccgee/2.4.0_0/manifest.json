@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/fn.js", "js/style.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_EXT_DESCRIPTION__",
+   "icons": {
+      "48": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwmB1XDddcJpd0ciaKHqIalQOZpwHoIB9BJByAqgWjjAUugoio7Wj4H+X0XrZltg9pdxwIMZuLv+XYz1wTa1nELpYxusBMKr/TfK3iV7u3wMiyh1duxRGRYfIFNudihfhJuNB7D8wWggYuGnnICktHpD6vwnSTQhSoHQaGjMtMPQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22",
+   "name": "__MSG_EXT_NAME__",
+   "options_page": "options/options.html",
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "storage", "unlimitedStorage", "fontSettings" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.0"
+}

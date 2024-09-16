@@ -1,0 +1,62 @@
+{
+   "EXT_DESCRIPTION": {
+      "message": "假若你十分熟悉CSS的編寫，那麼推薦你使用Stylish擴充功能以針對各類網頁使用各類自訂字型。"
+   },
+   "EXT_NAME": {
+      "message": "強制網頁使用自訂字型"
+   },
+   "error_settings_load": {
+      "message": "功能出错：讀取設置失敗！"
+   },
+   "error_settings_reset": {
+      "message": "功能出错：清空設置失敗！"
+   },
+   "error_settings_save": {
+      "message": "功能出錯：保存設置失敗！"
+   },
+   "settings_font_default": {
+      "message": "暫無設置"
+   },
+   "settings_pause": {
+      "message": "暫停功能"
+   },
+   "settings_reset": {
+      "message": "清空設置"
+   },
+   "settings_save": {
+      "message": "保留設置"
+   },
+   "settings_title_font_cjk": {
+      "message": "預設/中文字型"
+   },
+   "settings_title_font_fixed": {
+      "message": "代碼/定寬字型"
+   },
+   "settings_title_font_latin": {
+      "message": "拉丁/英文字型"
+   },
+   "settings_title_font_notice": {
+      "message": "〔需設訂預設字型〕"
+   },
+   "settings_title_font_other": {
+      "message": "非中日韓英字型"
+   },
+   "settings_title_fonts": {
+      "message": "字型詳細設定（不建議啟用）"
+   },
+   "settings_title_page": {
+      "message": "字型設定"
+   },
+   "settings_title_transform": {
+      "message": "字型替換設置"
+   },
+   "settings_title_transform_range": {
+      "message": "Unicode字符範圍"
+   },
+   "settings_title_transform_range_notice": {
+      "message": "請用範圍在0至10FFFF的十六進制數字，多個範圍可用英文半角逗號「,」分割，範圍聯結符號爲英文橫槓「_」。留空則使用0-10FFFF，即替換所有字符。"
+   },
+   "settings_title_transform_to": {
+      "message": "被替換爲"
+   }
+}

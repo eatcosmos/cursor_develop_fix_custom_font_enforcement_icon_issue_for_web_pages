@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title i18n="settings_title_page"></title>
+    <link type="text/css" rel="stylesheet" href="options.css" />
+    <script type="text/javascript" src="/js/localize.js"></script>
+    <script type="text/javascript" src="/js/fn.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+</head>
+
+<body>
+    <div id="operation">
+        <button id="switch">
+            <span class="on">On</span>/<span class="off">Off</span>
+        </button>
+        <button id="save" i18n="settings_save"></button>
+        <button id="pause" i18n="settings_pause"></button>
+        &emsp;
+        <button id="reset" i18n="settings_reset"></button>
+        <hr />
+    </div>
+    <div id="settings">
+        <label class="title" i18n="settings_title_fonts"></label>
+        <table>
+            <tbody id="normal">
+                <tr>
+                    <td i18n="settings_title_font_cjk"></td>
+                    <td><select id="font-cjk"></select></td>
+                </tr>
+                <tr>
+                    <td i18n="settings_title_font_latin"></td>
+                    <td><select id="font-latin"></select></td>
+                    <td i18n="settings_title_font_notice"></td>
+                </tr>
+                <tr>
+                    <td i18n="settings_title_font_other"></td>
+                    <td><select id="font-other"></select></td>
+                    <td i18n="settings_title_font_notice"></td>
+                </tr>
+                <tr>
+                    <td i18n="settings_title_font_fixed"></td>
+                    <td><select id="font-fixed"></select></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <label class="title" i18n="settings_title_transform"></label>
+        <button id="trans-add">+</button>
+        <table>
+            <tbody id="trans-form">
+                <tr id="trans-temp" class="font-trans" style="display:none">
+                    <td><input class="font-from" list="font-list" /></td>
+                    <td i18n="settings_title_transform_to"></td>
+                    <td><input class="font-to" list="font-list" /></td>
+                    <td i18n_title="settings_title_transform_range_notice">
+                        <label i18n="settings_title_transform_range"></label>
+                        <input class="font-range" type="text" />
+                    </td>
+                    <td><button class="trans-del">-</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <datalist id="font-list"></datalist>
+</body>
+
+</html>

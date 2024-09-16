@@ -1,0 +1,62 @@
+{
+   "EXT_DESCRIPTION": {
+      "message": "假如你十分熟悉CSS的编写，那么推荐你使用Stylish扩展来针对各类网页设置各种字体。"
+   },
+   "EXT_NAME": {
+      "message": "强制网页使用自定义字体"
+   },
+   "error_settings_load": {
+      "message": "扩展出错：读取设置失败！"
+   },
+   "error_settings_reset": {
+      "message": "扩展出错：清空设置失败！"
+   },
+   "error_settings_save": {
+      "message": "扩展出错：保存设置失败！"
+   },
+   "settings_font_default": {
+      "message": "暂无设置"
+   },
+   "settings_pause": {
+      "message": "暂停应用"
+   },
+   "settings_reset": {
+      "message": "清空设置"
+   },
+   "settings_save": {
+      "message": "保存设置"
+   },
+   "settings_title_font_cjk": {
+      "message": "默认/中文字体"
+   },
+   "settings_title_font_fixed": {
+      "message": "代码/等宽字体"
+   },
+   "settings_title_font_latin": {
+      "message": "拉丁/英文字体"
+   },
+   "settings_title_font_notice": {
+      "message": "（需设置默认字体）"
+   },
+   "settings_title_font_other": {
+      "message": "非中日韩英字体"
+   },
+   "settings_title_fonts": {
+      "message": "字体详细设置（不建议启用）"
+   },
+   "settings_title_page": {
+      "message": "字体设置"
+   },
+   "settings_title_transform": {
+      "message": "字体替换设置"
+   },
+   "settings_title_transform_range": {
+      "message": "Unicode字符范围："
+   },
+   "settings_title_transform_range_notice": {
+      "message": "请用范围在0到10FFFF的十六进制数字，多个范围可用英文逗号「,」分隔，范围连接符为英文横杠「_」。留空则为0-10FFFF，即替换所有字符。"
+   },
+   "settings_title_transform_to": {
+      "message": "被替换为"
+   }
+}

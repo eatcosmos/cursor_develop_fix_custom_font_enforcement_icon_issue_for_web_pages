@@ -1,0 +1,67 @@
+html {
+    background: #222;
+}
+body {
+    width: 750px;
+    margin:  10px auto;
+    color: #F0F8FF;
+    padding: 20px 0 20px 30px;
+    border: 2px inset;
+    border-radius: 2px;
+    font: 18px sans-serif;
+}
+.title {
+    font-size: 1.5em;
+    margin: 10px 0 2px 0;
+}
+select, button {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    margin: 0 1px 0 0;
+    text-shadow: 0 1px 0 #F0F0F0;
+}
+select, input {
+    outline: none;
+}
+select {
+    color: #B22222;
+}
+input {
+    border: 1px solid #BFBFBF;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #444;
+    min-width: 50px;
+    text-align: center;
+}
+#operation button {
+    margin: 15px 0 10px 0;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+#operation #switch {
+    color: gray;
+}
+#operation #switch.on .on {
+    color: green;
+}
+#operation #switch.off .off {
+    color: #B00000;
+}
+#trans-add, .trans-del {
+    font-family: monospace;
+    font-weight: bolder;
+    width: 1.3em;
+    height: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+button:active {
+    color: #B22222;
+}
+hr {
+    margin: 10px 0;
+    width: 420px;
+}
